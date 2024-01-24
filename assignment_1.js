@@ -11,8 +11,6 @@ const server = http.createServer((req,res) => {
         res.writeHead(404,{'Content-Type': 'text/plain'});
         res.end('Content not found');
     }
-
-
 });	
 
 server.listen(8900, 'localhost', () => {
